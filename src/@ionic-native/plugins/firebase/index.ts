@@ -131,6 +131,15 @@ export class Firebase extends IonicNativePlugin {
   unregister(): Promise<any> {
     return;
   }
+  
+  /**
+   * Clear all pending notifications from the drawer
+   * 
+   */
+  @Cordova()
+  clearAllNotifications(): Promise<any> {
+    return;
+  }
 
   /**
    * Log an event using Analytics
